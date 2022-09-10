@@ -20,8 +20,8 @@ function create_gauge_plot(score) {
             },
             bar: { color: "black" },
             steps: [
-                { range: [0, 20], color: "Cyan" },
-                { range: [20, 40], color: "Green" },
+                { range: [0, 20], color: "blue" },
+                { range: [20, 40], color: "teal" },
                 { range: [40, 60], color: "yellow" },
                 { range: [60, 80], color: "Orange" },
                 { range: [80, 100], color: "Red" }]
